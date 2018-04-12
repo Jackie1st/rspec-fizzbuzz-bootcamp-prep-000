@@ -5,7 +5,7 @@ def fizzbuzz(n)
   if (n % 5 == 0)
     return "Buzz"
   end 
-  if (n % 15 == 0)
+  if (n % (3*5) == 0)
     return "FizzBuzz"
   end 
 end 
