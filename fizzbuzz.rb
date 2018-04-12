@@ -1,4 +1,4 @@
-def fizzbuzz(n)
+def fizzbuzz(n, 3, 5)
   if (n % 3 == 0) 
     return "Fizz"
   end
